@@ -1,38 +1,36 @@
-# ✈️ TravoLeads – Travel Lead Management System
+# 🍛 Indian Masala House – Restaurant Website
 
-**TravoLeads** is a Laravel-based CRM designed to help travel agencies manage and track customer inquiries, follow-ups, quotations, and conversions in one place. It offers an intuitive UI, smart lead categorization, and powerful filtering to boost your agency's productivity.
+A full-stack restaurant web application built with **Laravel**, featuring a dynamic menu categorized by traditional Indian dishes, combo meals, and beverages. Designed for ease of browsing, managing, and updating restaurant offerings.
 
 ---
 
-## 🚀 Demo
+🌐 Live Preview [click here](https://indianmasalahouse.no/)
 
-🌐 [Live Preview (Coming Soon)](#)  
-🧪 Local: [http://127.0.0.1:8000](http://127.0.0.1:8000)
+🚀 [Visit the website (Local)](http://127.0.0.1:8000)
 
 ---
 
 ## 🔧 Tech Stack
 
-- **Backend:** Laravel 10, PHP 8+
-- **Frontend:** Blade, Bootstrap 5, jQuery
-- **Database:** MySQL
-- **Authentication:** Laravel Breeze / Sanctum
-- **Icons:** FontAwesome / Bootstrap Icons
+- **Backend:** Laravel 9 (PHP 8+)
+- **Frontend:** Blade, Bootstrap 5
+- **Database:** SQLite
+- **Authentication:** PHP Core
+- **Media Handling:** Laravel File Storage
 - **Version Control:** Git, GitHub
 
 ---
 
 ## 🧩 Key Features
 
-- 📥 **Lead Submission** with contact, travel date, destination & notes  
-- 🔁 **Follow-Up System** with status tracking (Pending, In Process, Converted, Lost)  
-- 📅 **Calendar Reminders** for important follow-up dates  
-- 📊 **Admin Dashboard** with lead analytics and visual stats  
-- 🏷️ **Lead Tags & Sources** (e.g., Google Ads, WhatsApp, Walk-in)  
-- 🔍 **Search & Filter** by status, agent, destination, and follow-up date  
-- 🔒 **Role-Based Access** (Admin & Agents)  
-- 📎 **File Uploads** for quotes, IDs, and documents  
-- 🔔 **Planned Notifications** for upcoming follow-ups
+- 🧾 **Dynamic Menu** – Fully categorized menu based on Indian cuisines
+- 🖼️ **Dish Images** – Upload and display avatars for each food item
+- 💰 **Full & Half Prices** – Set different prices for full and half portions
+- 🌶️ **Allergen Indicators** – Optional allergen info for each dish
+- 🧠 **Searchable & Filterable** – Menu searchable by name/category
+- 🥗 **100% Vegan Options** – Filter items by vegan/veg/non-veg
+- 🛠️ **Admin Panel** – Manage categories, items, pricing, visibility
+- 🖼️ **Media Uploads** – For both categories and individual food items
 
 ---
 
@@ -41,8 +39,8 @@
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/travoleads.git
-cd travoleads
+git clone https://github.com/singh-sajal/indian_masala_house.git
+cd indian-masala-house
 ```
 
 ###  2. Install dependencies
